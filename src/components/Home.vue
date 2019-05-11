@@ -2,13 +2,14 @@
 	<div>
 		<home-header></home-header>
 		<home-swiper></home-swiper>
-		<div>test</div>
+		<home-icons></home-icons>
 	</div>
 </template>
 
 <script>
 	import homeHeader from './Header'
 	import homeSwiper from './Swiper'
+	import homeIcons from './Icons'
 	export default {
 		data() {
 			return {
@@ -17,7 +18,8 @@
 		},
 		components:{
 			homeHeader,
-			homeSwiper
+			homeSwiper,
+			homeIcons
 		}
 	}
 </script>

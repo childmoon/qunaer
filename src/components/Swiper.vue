@@ -15,7 +15,7 @@
 			return {
 				swiperOption:{
 					pagination:'.swiper-pagination',
-					loop:true
+					loop:true//循环轮播
 				},
 				swiperList:[
 					{
