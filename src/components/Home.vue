@@ -1,11 +1,14 @@
 <template>
 	<div>
-		<homeheader></homeheader>
+		<home-header></home-header>
+		<home-swiper></home-swiper>
+		<div>test</div>
 	</div>
 </template>
 
 <script>
-	import homeheader from './Header'
+	import homeHeader from './Header'
+	import homeSwiper from './Swiper'
 	export default {
 		data() {
 			return {
@@ -13,7 +16,8 @@
 			};
 		},
 		components:{
-			homeheader
+			homeHeader,
+			homeSwiper
 		}
 	}
 </script>
