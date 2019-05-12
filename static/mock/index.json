@@ -1,0 +1,160 @@
+{
+  "ret": true,
+  "data": {
+	"city":"北京",
+    "swiperList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1801/1a/94428c6dea109402.jpg_640x200_2cf590d8.jpg"
+      },{
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1802/42/7c92b9a381e46402.jpg_640x200_1cdce2a4.jpg"
+      },{
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1802/51/e78f936a5b404102.jpg_640x200_c14f0b3a.jpg"
+      },{
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1712/91/a275569091681d02.jpg_640x200_0519ccb9.jpg"
+      }],
+    "iconList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+        "desc": "景点门票"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/df/86cbcfc533330d02.png",
+        "desc": "滑雪季"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1710/a6/83f636bd75ae6302.png",
+        "desc": "泡温泉"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/35/2640cab202c41b02.png",
+        "desc": "动植园"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/d0/e09575e66f4aa402.png",
+        "desc": "游乐园"
+      }, {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/59/569d3c096e542502.png",
+        "desc": "必游榜单"
+      }, {
+        "id": "0007",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/17/4bd370f3eb1acd02.png",
+        "desc": "演出"
+      }, {
+        "id": "0008",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/7f/b1ea3c8c7fb6db02.png",
+        "desc": "城市观光"
+      }, {
+        "id": "0009",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/a9/ffc620dbda9b9c02.png",
+        "desc": "一日游"
+      }],
+    "recommendList": [{
+        "id": "0001",
+        "imgUrl": "https://imgs.qunarzz.com/vs_ceph_vs_tts/c485da34-df85-4e8f-9bb7-55bca7d97d1d.jpg_180x120_2f302f0e.jpg",
+        "title": "火车头夜市",
+        "desc": "无自费+泳池别墅+SPA"
+      }, {
+        "id": "0002",
+        "imgUrl": "https://imgs.qunarzz.com/vs_ceph_vs_tts/5759256a-cccb-43aa-8c07-c3a0c96a0a8a.jpg_180x120_afd26787.jpg",
+        "title": "普吉岛每日AB行程",
+        "desc": "浮潜+免税店+五星泳池"
+      }, {
+        "id": "0003",
+        "imgUrl": "https://imgs.qunarzz.com/p/tts3/1708/97/d657636af1830702.jpg_180x120_aedc18db.jpg",
+        "title": "轻奢泰国曼谷芭提雅6/7天",
+        "desc": "SPA/按摩+免税店+骑大象"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/40/40b2b6c951b28fdd.water.jpg_140x140_1c863e5c.jpg",
+        "title": "水立方",
+        "desc": "中国的荣耀，阳光下的晶莹水滴"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201308/23/b283071686e64dfec8d65eac.jpg_140x140_8c5a7c49.jpg",
+        "title": "温都水城养生馆",
+        "desc": "各种亚热带植物掩映其间仿佛置身热带雨林"
+      },{
+	  	"id":"0006",
+	  	"imgUrl":"https://imgs.qunarzz.com/p/tts0/1902/f1/aa50b8f3e7423402.png_180x120_95d16586.png",
+	  	"title":"荷美邮轮msWesterdam东南亚航线",
+	  	"desc":"豪华型"
+	  },{
+	  	"id":"0007",
+	  	"imgUrl":"https://imgs.qunarzz.com/p/tts4/1806/92/6cdba2b8cf9c5b02.jpg_180x120_f2f4b446.jpg",
+	  	"title":"上海苏梅岛6天5晚自由行 拉迈海滩",
+	  	"desc":"连住不挪窝+泳池别墅"
+	  },{
+	  	"id":"0008",
+	  	"imgUrl":"https://imgs.qunarzz.com/vs_ceph_vs_tts/ec7810fa-53b3-4521-858f-3527edcbd299.jpg_180x120_d3965afd.jpg",
+	  	"title":"泰国皇帝岛海鱼盛宴海钓体验一日游(中文导游)",
+	  	"desc":"海钓+浮潜"
+	  }],
+    "weekendList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
+        "title": "北京温泉排行榜",
+        "desc": "细数北京温泉，温暖你的冬天"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/aa/7baaf8a851d221.jpg_r_640x214_1431200f.jpg",
+        "title": "北京必游TOP10",
+        "desc": "来北京必去的景点非这些地方莫属"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
+        "title": "寻找北京的皇城范儿",
+        "desc": "数百年的宫廷庙宇，至今依旧威严霸气"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/ce/bc89bc2f0e33ea.jpg_r_640x214_3e408453.jpg",
+        "title": "学生最爱的博物馆",
+        "desc": "周末干嘛？北京很多博物馆已经免费开放啦"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/b2/fde1bfcd057a52.jpg_r_640x214_bbf3fa44.jpg",
+        "title": "儿童剧场，孩子的乐园",
+        "desc": "带宝贝观看演出，近距离体验艺术的无穷魅力"
+      },
+	  {
+	  	"id":"0006",
+	  	"imgUrl":"https://imgs.qunarzz.com/vs_ceph_vc_ddr_merchant_service/c7f25b21-9098-4cbc-803d-d0d1a40cdb49.jpg_640x320_8593c65d.jpg",
+	  	"title":"北京红螺寺1日游-祈福还愿 千年古刹 | 乐吧户外",
+	  	"desc":"海拔300米 日徒步5公里 行程1天 轻装徒步"
+	  },
+	  {
+	  	"id":"0007",
+	  	"imgUrl":"https://imgs.qunarzz.com/vs_ceph_vc_ddr_merchant_service/f7102466-646d-49e4-bfe4-0138228e3690.png_640x320_7778ea5e.png",
+	  	"title":"江苏宜兴竹海一日游 竹海吸氧",
+	  	"desc":"海拔1000米 日徒步1公里 行程一天"
+	  },
+	  {
+	  	"id":"0008",
+	  	"imgUrl":"https://imgs.qunarzz.com/vs_ceph_vc_ddr_merchant_service/8ef83b7c-113c-427e-8be0-e9f0fd4d0bd1.jpg_640x320_b17d771a.jpg",
+	  	"title":"[5.19旅游节] 山西大同-北岳恒山",
+	  	"desc":"无购物 专业玩家/领队 经济舒适酒店"
+	  },
+	  {
+	  	"id":"0009",
+	  	"imgUrl":"https://imgs.qunarzz.com/vs_ceph_vc_ddr_merchant_service/d1af9df4-be4d-47bd-a41d-ba755161d9e7.jpg_640x320_84900430.jpg",
+	  	"title":"富春江桐洲岛2日探索亲子营",
+	  	"desc":"森林探险 皮划艇 环岛旅行 丛林CS"
+	  },
+	  {
+	  	"id":"00010",
+	  	"imgUrl":"https://imgs.qunarzz.com/douxing/i1/1807/eb/db04300e6ade6502.jpg_640x320_01d7cc27.jpg",
+	  	"title":"迪拜跳伞 棕榈岛高空跳伞",
+	  	"desc":"极限运动 专业教练 高空摄影"
+	  },
+	  {
+	  	"id":"00011",
+	  	"imgUrl":"https://imgs.qunarzz.com/douxing/i2/1810/86/921ee57de2892502.jpg_640x320_78095927.jpg",
+	  	"title":"兰卡威芭雅岛一日游 沙滩浮潜全岛接送",
+	  	"desc":"经典线路 深度体验 "
+	  }
+	  ]
+  }
+}

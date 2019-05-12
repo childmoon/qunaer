@@ -2,7 +2,7 @@
 	<div>
 		<div class="title">热销推荐</div>
 		<ul>
-			<li class="item border-bottom" v-for="item in recommendList" :key="item.id">
+			<li class="item border-bottom" v-for="item in list" :key="item.id">
 				<img class="item-img" :src="item.imgUrl" alt="">
 				<div class="item-info">
 					<p class="item-title">{{item.title}}</p>
@@ -16,9 +16,12 @@
 
 <script>
 	export default {
+		props:{
+			list:Array
+		},
 		data() {
 			return {
-				recommendList:[
+				/* recommendList:[
 					{
 						id:"0001",
 						imgUrl:'https://imgs.qunarzz.com/vs_ceph_vs_tts/c485da34-df85-4e8f-9bb7-55bca7d97d1d.jpg_180x120_2f302f0e.jpg',
@@ -55,7 +58,7 @@
 						title:'泰国皇帝岛海鱼盛宴海钓体验一日游(中文导游)',
 						desc:'海钓+浮潜'
 					}
-				]
+				] */
 			};
 		}
 	}
