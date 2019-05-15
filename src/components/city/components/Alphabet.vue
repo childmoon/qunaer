@@ -1,9 +1,9 @@
 <template>
 	<div>
 		<ul class="list">
-			<li class="item">A</li>
-			<li class="item">B</li>
-			<li class="item">C</li>
+			<li class="item" v-for="(item,key) in cities" :key="key">
+			{{key}}
+			</li>
 		</ul>
 	</div>
 </template>
@@ -14,6 +14,9 @@
 			return {
 				
 			};
+		},
+		props:{
+			cities:Object
 		}
 	}
 </script>
