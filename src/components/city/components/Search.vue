@@ -7,7 +7,8 @@
 		v-show="keyword">
 			<ul>
 				<li class="search-item"
-				v-for="item in list">
+				v-for="item in list"
+				@click="handleCityClick(item.name)">
 					{{item.name}}
 				</li>
 				<li v-show="hasNoData" class="search-item">
@@ -34,6 +35,13 @@
 		computed:{
 			hasNoData(){
 				return !this.list.length
+			}
+		},
+		methods:{
+			handleCityClick(city){
+				console.log(city)
+				this.$store.commit('changeCity',city)
+				this.$router.push('/')
 			}
 		},
 		watch:{

@@ -17,15 +17,20 @@
 </template>
 
 <script>
+	import { mapState } from 'vuex'
 	export default {
 		data() {
 			return {
 				
 			};
 		},
+		computed:{
+			...mapState(['city'])
+		}
+		/* ,
 		props:{
 			'city':String
-		}
+		} */
 	}
 </script>
 
@@ -37,6 +42,7 @@
 	@import '~styles/varibles.styl'
 	.header
 		display: flex
+		height:$headerHeight
 		line-height: $headerHeight//这里相当于43px
 		background:$bgColor
 		color:#fff
@@ -57,7 +63,8 @@
 			border-radius: .1rem
 			color:#ccc
 		.header-right
-			width: 1.24rem
+			min-width: 1.04rem
+			margin:0 0.06rem 0 0.06rem
 			float:right
 			text-align:center
 			color:#fff
