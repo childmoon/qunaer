@@ -15,10 +15,12 @@
 	import homeIcons from './Icons'
 	import homeRecommend from './Recommend'
 	import homeWeekend from './Weekend'
+	import { mapState } from 'vuex'
 	export default {
 		data() {
 			return {/* 
 				city:'', */
+				lastCity:'',
 				swiperList:[],
 				iconList:[],
 				recommendList:[],
@@ -32,9 +34,12 @@
 			homeRecommend,
 			homeWeekend
 		},
+		computed:{
+			...mapState(['city'])
+		},
 		methods:{
 			getHomeInfo(){
-				axios.get('/api/index.json')
+				axios.get('/api/index.json?city='+this.city)
 				//不能直接写axios.get('/static/mock/index.json')
 				//后面你的代码要上线肯定不能写成这样
 					.then(this.getHomeInfoSucc)
@@ -53,7 +58,14 @@
 			}
 		},
 		mounted(){
+			this.lastCity=this.city
 			this.getHomeInfo()
+		},
+		activated(){
+			if(this.lastCity !== this.city){
+				this.lastCity = this.city
+				this.getHomeInfo()
+			}
 		}
 	}
 </script>
