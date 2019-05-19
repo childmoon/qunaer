@@ -1,5 +1,5 @@
 <template>
-	<div class="container">
+	<div class="container" @click="handleGallaryClick()">
 		<div class="wrapper">
 			<swiper :options="swiperOptions">
 				<swiper-slide v-for="(item,index) in imgs"
@@ -7,7 +7,7 @@
 					<img class="gallary-img" 
 					:src="item" alt="">
 				</swiper-slide>
-				<div class="swiper-pagination"  slot="pagination"></div>
+				<div class="swiper-pagination" slot="pagination"></div>
 			</swiper>
 		</div>
 	</div>
@@ -32,6 +32,11 @@
 						'https://img1.qunarzz.com/vs_ceph_vs_tts/8156be5d-40bb-4a9f-a42b-82e5867f18ea.jpg_r_1280x840x90_10b88c23.jpg'
 					]
 				}
+			}
+		},
+		methods:{
+			handleGallaryClick(){
+				this.$emit('close')
 			}
 		}
 	}
