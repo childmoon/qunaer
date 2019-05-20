@@ -1,19 +1,21 @@
 <template>
 	<div>
 		<div class="banner" @click="handleBannerClick()">
-			<img class="banner-img" src="https://img1.qunarzz.com/p/tts3/1708/97/d657636af1830
-			702.jpg_r_640x420x90_507be068.jpg" alt="">
+			<img class="banner-img" :src="bannerImg" alt="">
 			<div class="banner-info">
 				<div class="banner-tittle">
-					大连海洋世界
+					{{this.sightName}}
 				</div>
 				<div class="banner-number">
 					<span class="iconfont banner-icon">&#xe602;</span>
-					39
+					{{this.bannerImgs.length}}
 				</div>
 			</div>
 		</div>
-		<common-gallary v-if="showGallary" @close="handleGallaryClose"></common-gallary>
+		<common-gallary
+		 v-if="showGallary" 
+		 @close="handleGallaryClose"
+		 :imgs="bannerImgs"></common-gallary>
 	</div>
 </template>
 
@@ -24,6 +26,11 @@
 			return {
 				showGallary:false
 			};
+		},
+		props: {
+			sightName: String,
+			bannerImg: String,
+			bannerImgs: Array
 		},
 		components:{
 			CommonGallary

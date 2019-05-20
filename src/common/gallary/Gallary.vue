@@ -60,7 +60,7 @@
 			width:100%
 			height:0
 			/* overflow:hidden */
-			padding-bottom:66%
+			padding-bottom:100%
 			background:#fff
 			.gallary-img
 				width:100%	
