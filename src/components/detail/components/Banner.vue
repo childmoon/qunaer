@@ -12,15 +12,18 @@
 				</div>
 			</div>
 		</div>
+		<fade-animation>
 		<common-gallary
 		 v-if="showGallary" 
 		 @close="handleGallaryClose"
 		 :imgs="bannerImgs"></common-gallary>
+		 </fade-animation>
 	</div>
 </template>
 
 <script>
 	import CommonGallary from 'common/gallary/Gallary'
+	import FadeAnimation from 'common/fade/Fade'
 	export default {
 		data() {
 			return {
@@ -33,7 +36,8 @@
 			bannerImgs: Array
 		},
 		components:{
-			CommonGallary
+			CommonGallary,
+			FadeAnimation
 		},
 		methods:{
 			handleBannerClick(){
